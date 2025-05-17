@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green: #008144;
+  --color-red: #EC1C24;
+  --color-grey: #F9F9F9;
+}
+
+@font-face {
+  font-family: "Nexa_BD";
+  src: url("../../fonts/Nexa_Bold.otf") format("opentype");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nexa_BD";
+  font-weight: bold;
+}
+.font-NEXA {
+  font-family: "Nexa_BD";
+  font-weight: bold;
+}
